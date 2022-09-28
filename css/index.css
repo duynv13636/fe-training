@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: textChill;
+  src: url("../Quattrocento_Sans/QuattrocentoSans-Italic.ttf");
+}
+body {
+  font-family: textChill;
+}
+#container {
+  margin: 0 auto;
+  width: 1902px;
+}
+video {
+  position: absolute;
+  width: 1902px;
+  height: 660px;
+  object-fit: cover;
+}
+/* Header  */
+header {
+  width: 1902px;
+  height: 660px;
+}
+.header_controll {
+  position: relative;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.text_header {
+  padding-top: 4px;
+  color: #ffffff;
+}
+.text_nav_right {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.text_insights {
+  display: flex;
+  padding-top: 10px;
+  padding-right: 50px;
+}
+.text_insights p {
+  padding-right: 10px;
+  color: #ffffff;
+}
+.text_administration {
+  display: flex;
+  padding-top: 10px;
+  padding-right: 50px;
+}
+.text_administration p {
+  padding-right: 10px;
+  color: #ffffff;
+}
+.button_child {
+  width: 134px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  background: #ffffff;
+  opacity: 0.9;
+  border: 1px solid #ffffff;
+  border-radius: 28px;
+}
+.header_text_child {
+  margin-left: 452px;
+  margin-top: 200px;
+  position: relative;
+}
+.text_chill {
+  width: 527px;
+  height: 91px;
+  left: 165px;
+  top: 249px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 91px;
+  color: #ffffff;
+}
+.text_child_2 {
+  display: flex;
+  color: #ffffff;
+}
+.child_1 {
+  width: 262px;
+  height: 30px;
+  left: 165px;
+  top: 356px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.child_2 {
+  width: 238px;
+  height: 30px;
+  left: 436px;
+  top: 356px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 30px;
+  color: #ffffff;
+}
+/* container_content  */
+.section_content {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.box_content_1 {
+  width: 540px;
+  height: 462px;
+  background-color: #f2f7ff;
+  border-radius: 14px;
+  margin-right: 30px;
+}
+.title_cotroll {
+  padding-top: 40px;
+  padding-left: 30px;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 32px;
+}
+.desc_1 {
+  padding-top: 26px;
+  padding-left: 30px;
+  width: 413px;
+  height: 56px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #000000;
+  opacity: 0.7;
+}
+.desc_2 {
+  padding-top: 40px;
+  padding-left: 30px;
+  width: 413px;
+  height: 56px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #000000;
+  opacity: 0.7;
+}
+.title_desc_1 {
+  width: 413px;
+  height: 84px;
+  padding-top: 26px;
+  padding-left: 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #000000;
+  opacity: 0.4;
+}
+.title_desc_2 {
+  width: 413px;
+  height: 56px;
+  padding-top: 70px;
+  padding-left: 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #000000;
+  opacity: 0.4;
+}
+
+.title_desc_3 {
+  width: 413px;
+  height: 56px;
+  padding-top: 70px;
+  padding-left: 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #000000;
+  opacity: 0.4;
+}
+.box_content_2 {
+  width: 540px;
+  height: 462px;
+  background-color: #ffffe0;
+  border-radius: 14px;
+}
+.footer_container {
+  margin-top: 100px;
+  height: 258.36px;
+  background-color: #000000;
+  color: #f2f7ff;
+}
+.footer_content {
+  height: 258.36px;
+  display: flex;
+}
+.title_footer {
+  font-size: 22px;
+  padding-top: 91.7px;
+  padding-left: 262.13px;
+  padding-bottom: 137.6px;
+}
+.nav_footer_1 {
+  width: 148px;
+  margin-left: 706px;
+  margin-top: 74px;
+  font-size: 15px;
+  color: #f2f7ff;
+}
+.nav_footer_1 ul li {
+  padding-bottom: 30px;
+  display: block;
+}
+.nav_footer_2 {
+  width: 184px;
+  color: #f2f7ff;
+  margin-top: 74px;
+  margin-left: 135px;
+  font-size: 15px;
+}
+.nav_footer_2 ul li {
+  padding-bottom: 30px;
+  display: block;
+}
+.footer_content_child {
+  height: 60.64px;
+  background-color: #161617;
+  display: flex;
+  align-items: center;
+}
+.english {
+  padding-left: 262.13px;
+  display: flex;
+}
+.english img {
+  padding-right: 10px;
+}
+.desc_footer{
+    padding-left: 738px;
+}
