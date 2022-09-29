@@ -5,7 +5,7 @@
 }
 @font-face {
   font-family: textChill;
-  src: url("../font/Quattrocento_Sans/QuattrocentoSans-Italic.ttf");
+  src: url("../font/centrano1-and-no2-font/CentraNo1-Book.ttf");
 }
 body {
   font-family: textChill;
@@ -243,7 +243,7 @@ header {
 .btn_box_1 {
   display: inline-block;
   display: flex;
-  margin-top: 100px;
+  margin-top: 50px;
   justify-content: center;
   align-items: center;
 }
@@ -334,6 +334,7 @@ header {
   }
   .text_nav_right {
     display: none;
+    
   }
   .text_header {
     color: #ffffff;
@@ -370,6 +371,7 @@ header {
     width: 152px;
     height: 30px;
     font-size: 14px;
+    margin-left: 5px;
   }
   .section_content {
     width: 375px;
