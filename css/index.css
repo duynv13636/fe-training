@@ -255,6 +255,20 @@ header {
   border: solid #a28840;
   color: #f2f7ff;
 }
+.btn_box_1 a{
+  text-decoration: none;
+}
+.btn_box_1 :hover{
+  cursor: pointer;
+  text-decoration: none;
+}
+.btn_box_2 a{
+  text-decoration: none;
+}
+.btn_box_2 :hover{
+  
+  cursor: pointer;
+}
 .btn_box_2 button {
   width: 160px;
   height: 40px;
@@ -300,6 +314,10 @@ header {
 .nav_footer_2 ul li {
   padding-bottom: 30px;
   display: block;
+}
+.nav_footer_2 ul li a{
+ text-decoration: none;
+ color: #ffffff;
 }
 
 .footer_content_child {

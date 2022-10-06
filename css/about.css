@@ -32,6 +32,9 @@ nav {
   padding-top: 4px;
   color: #000;
 }
+.text_header a{
+text-decoration: none;
+}
 .text_nav_right {
   display: flex;
   justify-content: space-evenly;
