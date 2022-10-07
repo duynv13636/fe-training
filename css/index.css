@@ -21,6 +21,32 @@ video {
   object-fit: cover;
 }
 /* Header  */
+
+/* animation */
+@property --num {
+  syntax: "<integer>";
+  initial-value: 0;
+  inherits: false;
+}
+
+.couter {
+  animation: counter 5s alternate ease-in-out;
+  counter-reset: num var(--num);
+  font:16px system-ui;
+  animation-fill-mode: forwards;
+}
+.couter::after {
+  content: counter(num);
+}
+
+@keyframes counter {
+  from {
+    --num: 0;
+  }
+  to {
+    --num: 100;
+  }
+}
 header {
   width: 1440px;
   height: 660px;
