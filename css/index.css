@@ -375,7 +375,7 @@ header {
   display: block;
 }
 .nav_footer_1 ul li a:hover {
-  color:white;
+  color: white;
   opacity: 1;
 }
 .nav_footer_2 ul li {
@@ -397,7 +397,7 @@ header {
   opacity: 0.7;
 }
 .nav_footer_2 ul > li > a:hover {
-  color:white;
+  color: white;
   opacity: 1;
 }
 .footer_content_child {
