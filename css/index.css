@@ -10,14 +10,13 @@
 body {
   font-family: CentraNo1;
 }
-#wrapper {
-  width: 100%;
-}
 video {
   position: absolute;
-  width: 100%;
+  width:0 1440px;
+  margin: auto;
   height: 660px;
   object-fit: cover;
+  /* left: 0; */
 }
 /* Header  */
 
@@ -52,10 +51,13 @@ video {
 }
 .header_container {
   margin: auto;
-  width: 1440px;
 }
 header {
-  width: 100%;
+  background-color: #94d8da;
+}
+.header {
+  width: 1440px;
+  margin: auto;
   height: 660px;
 }
 .icon_header {
@@ -179,8 +181,11 @@ header {
 }
 /* container_content  */
 .section_content {
+  width: 1440px;
+  margin: auto;
   position: relative;
   display: flex;
+
   justify-content: center;
   margin-top: 100px;
 }
@@ -376,27 +381,31 @@ header {
   color: #f2f7ff;
 }
 .footer_container {
-  margin: auto;
   margin-top: 100px;
-  background-color: #292a2b;
+
   color: #f2f7ff;
+}
+.footer1 {
+  background-color: #292a2b;
 }
 .footer_content {
   width: 1440px;
   margin: auto;
+  background-color: #292a2b;
 }
 .footer_content_container {
   background-color: #161617;
 }
 .footer_content_child {
-  margin: auto;
-  height: 60.64px;
   background-color: #0b0b0b;
 }
 .abc {
   width: 1440px;
   display: flex;
-  margin: auto;
+  align-items: center;
+  height: 60.64px;
+  background-color:#0b0b0b ;
+  margin:0 auto;
 }
 .footer_content {
   height: 258.36px;
@@ -450,12 +459,6 @@ header {
   color: white;
   opacity: 1;
 }
-.footer_content_child {
-  height: 60.64px;
-  background-color: #161617;
-  display: flex;
-  align-items: center;
-}
 .english {
   padding-left: 165px;
   display: flex;
@@ -485,6 +488,9 @@ header {
     width: 375px;
     height: 328px;
   }
+  .header{
+    width: 375px;
+  }
   video {
     height: 328px;
   }
@@ -508,7 +514,7 @@ header {
     align-items: center;
     /* display: block;   */
   }
-  .header_container{
+  .header_container {
     width: 375px;
   }
   .header_text_child {
@@ -635,12 +641,10 @@ header {
     height: 455px;
     display: block;
   }
-  .abc{
+  .abc {
     width: 375px;
-    display: block;
-  }
-  .footer_content_child {
     height: 133px;
+    display: block;
   }
   .title_footer {
     width: 200px;
@@ -661,10 +665,8 @@ header {
     margin-left: 21px;
     border-bottom: 1px solid #ffffff;
   }
-  .footer_content_child {
-    display: block;
-  }
   .english {
+    width: 350px;
     padding-left: 21px;
     padding-top: 20px;
     opacity: 0.6;
