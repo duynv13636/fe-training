@@ -12,7 +12,7 @@ body {
 }
 video {
   position: absolute;
-  width:0 1440px;
+  width: 0 1440px;
   margin: auto;
   height: 660px;
   object-fit: cover;
@@ -389,8 +389,10 @@ header {
   background-color: #292a2b;
 }
 .footer_content {
-  width: 1440px;
   margin: auto;
+  width: 1440px;
+  height: 258.36px;
+  display: flex;
   background-color: #292a2b;
 }
 .footer_content_container {
@@ -404,12 +406,8 @@ header {
   display: flex;
   align-items: center;
   height: 60.64px;
-  background-color:#0b0b0b ;
-  margin:0 auto;
-}
-.footer_content {
-  height: 258.36px;
-  display: flex;
+  background-color: #0b0b0b;
+  margin: 0 auto;
 }
 .title_footer {
   padding-left: 160px;
@@ -488,7 +486,7 @@ header {
     width: 375px;
     height: 328px;
   }
-  .header{
+  .header {
     width: 375px;
   }
   video {

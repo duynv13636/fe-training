@@ -30,7 +30,6 @@ body {
 }
 nav {
   height: 80px;
-
   border-bottom: 1px solid #ccc;
 }
 .text_header {
@@ -42,9 +41,19 @@ nav {
 }
 .text_nav_right {
   display: flex;
+  align-items: center;
 }
 .profile_button_controll {
   margin-left: 50px;
+}
+.profile_button_controll a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: #000000;
+  opacity: 0.7;
 }
 .text_insights {
   display: flex;
@@ -71,11 +80,23 @@ nav {
   justify-content: center;
   align-items: center;
   justify-content: space-evenly;
-  background: #a78730;
-  color: #ffffff;
+  background: #ffffff;
+  color: #a78730;
   opacity: 0.9;
-  border: 1px solid #a78730;
+  border: 1px solid #ffffff;
   border-radius: 28px;
+}
+.button_child p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: #a78730;
+}
+.button_child:hover {
+  background: #f0f0f0;
+  border: 1px solid #f0f0f0;
+  cursor: pointer;
 }
 .title_header {
   width: 304px;
@@ -117,7 +138,7 @@ nav {
   height: 28px;
   margin-left: 23px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 22px;
   line-height: 28px;
   color: #000000;
@@ -152,11 +173,10 @@ nav {
   margin-left: 23px;
   margin-top: 16px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   color: #000000;
-  opacity: 0.9;
 }
 .child {
   color: #b59a51;
@@ -165,17 +185,48 @@ nav {
   margin-left: 42px;
   margin-top: 10px;
 }
+.nav_ul_header ul li {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #000000;
+  opacity: 0.7;
+}
+.nav_ul_header_2 ul li {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #000000;
+  opacity: 0.7;
+}
+.nav_ul_header_3 ul li {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #000000;
+  opacity: 0.7;
+}
+.nav_ul_header_4 ul li {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #000000;
+  opacity: 0.7;
+}
 .desc_content_2 {
   width: 280px;
   height: 48px;
   margin-left: 23px;
   margin-top: 16px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   color: #000000;
-  opacity: 0.9;
 }
 .desc_content_3 {
   width: 280px;
@@ -183,11 +234,10 @@ nav {
   margin-left: 23px;
   margin-top: 16px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   color: #000000;
-  opacity: 0.9;
 }
 .desc_content_4 {
   width: 216px;
@@ -195,11 +245,10 @@ nav {
   margin-left: 23px;
   margin-top: 16px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   color: #000000;
-  opacity: 0.9;
 }
 .nav_ul_header_2 {
   margin-top: 37px;
@@ -444,7 +493,7 @@ nav {
     margin-left: 13px;
     margin-top: 32px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 900;
     font-size: 22px;
     line-height: 28px;
     color: #000000;
@@ -543,51 +592,51 @@ nav {
   .resultat_628 {
     margin-left: 13px;
   }
-  .text_chill_1 .text_span{
+  .text_chill_1 .text_span {
     padding-left: 13px;
   }
-  .tex{
+  .tex {
     margin-top: 10px;
   }
-  .box_content{
+  .box_content {
     width: 375px;
     margin-left: 0;
   }
-  .box_content_child{
+  .box_content_child {
     width: 350px;
     margin-left: 13px;
   }
-  .icon_circle{
+  .icon_circle {
     display: none;
   }
-  .title_desc_content{
+  .title_desc_content {
     width: 375px;
   }
-  .title_desc_content h2{
+  .title_desc_content h2 {
     width: 327px;
     height: 72px;
-    
+
     text-align: center;
     margin-left: 24px;
     font-size: 14px;
   }
-  .button_desc_content button{
+  .button_desc_content button {
     margin-left: 107px;
     margin-top: 24px;
   }
-  .footer_content{
+  .footer_content {
     width: 375px;
   }
-  .hihi{
+  .hihi {
     width: 375px;
   }
-  .huhu{
+  .huhu {
     width: 375px;
   }
-  .huhu{
+  .huhu {
     display: block;
   }
-  .desc_footer{
+  .desc_footer {
     width: 375px;
   }
   /* footer */
@@ -620,15 +669,15 @@ nav {
     margin-left: 21px;
     border-bottom: 1px solid #ffffff;
   }
-  .footer_content_child{
+  .footer_content_child {
     display: block;
   }
-  .english{
-   padding-left: 21px;
-   padding-top: 20px;
-   opacity: 0.6;
+  .english {
+    padding-left: 21px;
+    padding-top: 20px;
+    opacity: 0.6;
   }
-  .desc_footer{
+  .desc_footer {
     width: 298px;
     line-height: 25px;
     padding-left: 21px;
