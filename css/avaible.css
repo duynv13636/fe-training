@@ -39,6 +39,9 @@ nav {
 .text_header a {
   text-decoration: none;
 }
+.icon_header {
+  display: none;
+}
 .text_nav_right {
   display: flex;
   align-items: center;
@@ -342,6 +345,10 @@ nav {
   margin-bottom: 28px;
   margin-right: 28px;
 }
+.box_content_child:hover {
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 .title_box {
   padding-top: 22px;
   padding-left: 20px;
@@ -508,6 +515,9 @@ nav {
     width: 350px;
     margin-left: 13px;
   }
+  .icon_header {
+    display: block;
+  }
   .text_header_left {
     margin-top: 20px;
   }
@@ -640,11 +650,21 @@ nav {
     width: 350px;
     margin-left: 13px;
   }
+  .box_content_child p {
+    width: 300px;
+  }
+  .icon_dots {
+    width: 250px;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-start;
+  }
   .icon_circle {
     display: none;
   }
   .title_desc_content {
     width: 375px;
+    margin-top: 20px;
   }
   .title_desc_content h2 {
     width: 327px;
@@ -655,21 +675,11 @@ nav {
     font-size: 14px;
   }
   .button_desc_content button {
-    margin-left: 107px;
     margin-top: 24px;
   }
 
   .footer_content {
     width: 375px;
-  }
-  .hihi {
-    width: 375px;
-  }
-  .huhu {
-    width: 375px;
-  }
-  .huhu {
-    display: block;
   }
   .desc_footer {
     width: 375px;
@@ -688,7 +698,6 @@ nav {
     display: block;
   }
   .title_footer {
-    padding-left: 21px;
     padding-top: 54px;
     padding-bottom: 0;
   }
@@ -700,12 +709,17 @@ nav {
     margin-top: 50px;
     margin-left: 21px;
   }
+  .footer-bottom {
+    display: block;
+  }
   .boder {
     width: 314px;
     margin-left: 21px;
     border-bottom: 1px solid #ffffff;
   }
-
+  .footer_content_child {
+    margin-top: 5rem;
+  }
   .english {
     padding-left: 21px;
     padding-top: 20px;

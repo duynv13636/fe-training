@@ -4,146 +4,36 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+      integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
     <title>Document</title>
+    <script>
+      $(document).ready(function(){
+        $('#icon').click(function(){
+          $('ul').toggleClass('show');
+        })
+      })
+    </script>
   </head>
   <body>
-    @media screen and (max-width: 375px) {
-      #container {
-        width: 375px;
-      }
-      .text_nav_right {
-        display: none;
-      }
-      .nav_controll {
-        display: block;
-      }
-      .text_header {
-        margin-left: 13px;
-      }
-      .text_header_left {
-        margin-top: 20px;
-      }
-      .title_header {
-        width: 223px;
-        height: 28px;
-        margin-left: 13px;
-        margin-top: 32px;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 22px;
-        line-height: 28px;
-        color: #000000;
-        opacity: 0.8;
-      }
-      .header_content {
-        display: block;
-      }
-      /* 1 */
-      .desc_content {
-        display: none;
-      }
-      .nav_ul_header {
-        display: none;
-      }
-      /* 2 */
-      .desc_content_2 {
-        display: none;
-      }
-      .nav_ul_header_2 {
-        display: none;
-      }
-      /* 3 */
-      .desc_content_3 {
-        display: none;
-      }
-      .nav_ul_header_3 {
-        display: none;
-      }
-      /* 4 */
-      .desc_content_4 {
-        display: none;
-      }
-      .nav_ul_header_4 {
-        display: none;
-      }
-      .box_header_content {
-        width: 324px;
-        height: 115px;
-        margin-left: 20px;
-        border-bottom: 1px solid #292a2b;
-      }
-      .box_header_content_1 {
-        width: 324px;
-        margin-left: 20px;
-        background: none;
-        border-top: none;
-        height: 115px;
-        border-bottom: 1px solid #292a2b;
-      }
-      .title_content_header h3 {
-        /* margin-left: 13px; */
-      }
-    }
-    
-    <div
-      style="
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: red;
-        height: 900px;
-        width: 900px;
-      "
-    >
-      <div
-        style="
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          background-color: yellow;
-          height: 600px;
-          width: 600px;
-        "
-      >
-        <div
-          style="
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: blue;
-            height: 300px;
-            width: 300px;
-            
-          "
-        ></div>
-        <div
-          style="
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: green;
-            height: 300px;
-            width: 300px;
-            position: absolute;
-          "
-        > 
-    <div style="position: relative; top:10px; background-color: aqua;">
-        duy 
-    </div>
-    </div>
-    <p>dvdvd</p>
-    <span>dvdv</span>
-        <!-- <div
-          style="
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: wheat;
-            height: 300px;
-            width: 300px;
-          "
-        ></div> -->
-      </div>
-    </div>
+    <nav>
+      <label for="" class="logo">design</label>
+      <ul>
+        <li><a href="#">Hom</a></li>
+        <li><a href="#">about</a></li>
+        <li><a href="#">page</a></li>
+        <li><a href="#">signin</a></li>
+        <li><a href="#">signup</a></li>
+      </ul>
+      <label id="icon">
+        <i style="color: black" class="fas fa-bars"></i>
+      </label>
+    </nav>
   </body>
 </html>
